@@ -1,0 +1,158 @@
+body {
+  font-family: "microsoft yahei";
+  background-color: #F8F8F8;
+}
+.igcreate {
+  margin-top: 15px;
+  background: #fff;
+}
+.igcreate .igcreate-left {
+  height: 272px;
+  width: 779px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.igcreate .igcreate-right {
+  width: 300px;
+  height: 272px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+.igcreate .title {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-right: 15px;
+}
+.igcreate .title h5 {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  display: inline-block;
+  font-size: 14px;
+  border-bottom: 1px solid #E12B35;
+}
+.igcreate .title h5::before {
+  content: url(../images/Speaker.png);
+  vertical-align: middle;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+.igcreate .title .more a {
+  color: #999999;
+  font-size: 14px;
+}
+.content .pic {
+  margin-right: 15px;
+  float: left;
+}
+.content .detail {
+  margin-bottom: 50px;
+  position: relative;
+  font-size: 12px;
+}
+.content .detail p:first-child {
+  margin: 10px 0;
+}
+.content .detail p:first-child a {
+  color: #626262;
+}
+.content .detail p:first-child a:hover {
+  color: #E12B35;
+}
+.content .detail p {
+  color: #999999;
+}
+.content .detail .line {
+  width: 78%;
+  height: 1px;
+  position: absolute;
+  left: 161px;
+  bottom: -31px;
+  border-bottom: 1px dashed #E4E4E4;
+}
+.content .list li {
+  margin: 5px 0;
+}
+.content .list li a {
+  font-size: 12px;
+  color: #555555;
+}
+.content .list li a span {
+  float: right;
+}
+.content .list li a:hover {
+  color: #E12B35;
+}
+.intro p {
+  text-indent: 27px;
+  line-height: 2;
+}
+.serve .serve-item {
+  float: left;
+  width: 47%;
+  padding: 5px 10px;
+}
+.serve .serve-item .pic {
+  float: left;
+  margin-right: 15px;
+}
+.serve .serve-item .detail p:first-child {
+  margin: 10px 0;
+}
+.serve .serve-item .detail p:first-child a {
+  color: #626262;
+}
+.serve .serve-item .detail p:first-child a:hover {
+  color: #E12B35;
+}
+.serve .serve-item .detail p {
+  color: #999999;
+}
+.serve::before,
+.serve::after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(#ccc 12%, white 80%);
+}
+.serve::before {
+  height: 1px;
+  width: 92%;
+  left: 32px;
+  bottom: 112px;
+}
+.serve::after {
+  height: 79%;
+  width: 1px;
+  left: 385px;
+  bottom: 6px;
+}
+.glory,
+.friends {
+  padding: 10px 15px;
+}
+.glory li,
+.friends li {
+  margin: 13px 2px;
+  color: #555555;
+}
+.exm li {
+  float: left;
+  margin: 0 18px;
+}
+.exm li a {
+  display: block;
+  margin-top: 10px;
+  color: #868686;
+}
+.exm li a:hover {
+  color: #E12B35;
+}
+.friends a {
+  color: #555555;
+  font-weight: 700;
+}
+.friends a:hover {
+  color: #E12B35;
+}

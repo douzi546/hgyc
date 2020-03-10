@@ -1,0 +1,9 @@
+.service-commit {
+  margin: 20px 0;
+}
+.service-commit p {
+  color: #555555;
+  padding: 12px 0;
+  border-bottom: 1px dashed #ccc;
+  line-height: 24px;
+}

@@ -1,0 +1,27 @@
+.cooperative .serve-item {
+  border: 1px solid #ccc;
+  margin: 20px 0px 5px;
+  width: 44%;
+  padding: 15px;
+  background: #FFFFFF;
+}
+.cooperative .serve-item .pic {
+  float: left;
+  padding-right: 10px;
+}
+.cooperative .serve-item .detail p:first-child {
+  margin: 10px 0;
+  font-weight: 700;
+}
+.cooperative .serve-item .detail p:first-child a {
+  color: #626262;
+}
+.cooperative .serve-item .detail p:first-child a:hover {
+  color: #E12B35;
+}
+.cooperative .serve-item .detail p {
+  color: #999999;
+}
+.cooperative .serve-item .detail a {
+  color: #626262;
+}

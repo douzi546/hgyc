@@ -1,0 +1,280 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+p {
+  font-size: 12px;
+}
+a:hover {
+  text-decoration: none;
+}
+.pad20 {
+  padding: 20px;
+}
+body {
+  font-family: "microsoft yahei";
+  background-color: #F8F8F8;
+}
+.header {
+  height: 77px;
+  background-color: #F8F8F8;
+  text-align: center;
+}
+.header .logo {
+  width: 200px;
+  margin-top: 7px;
+}
+.header .logo img {
+  min-width: 100%;
+  height: auto;
+}
+.header .nav li {
+  float: left;
+}
+.header .nav li a {
+  display: block;
+  height: 77px;
+  line-height: 77px;
+  padding: 0 14px;
+  text-decoration: none;
+  color: #555555;
+  font-weight: 700;
+  font-size: 14px;
+}
+.header .nav li .current {
+  background-color: #E12B35;
+  color: #fff;
+}
+.header .nav li ul {
+  z-index: 999;
+  position: absolute;
+  display: none;
+}
+.header .nav li ul li {
+  float: none;
+  opacity: 0.9;
+  background: #3f3d41;
+}
+.header .nav li ul li a {
+  display: block;
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  color: #B2B4B6;
+  font-size: 12px;
+}
+
+.banner img {
+  width: 100%;
+  min-width: 1024px;
+}
+.main {
+  min-height: 480px;
+  margin-top: 20px;
+}
+.main .col-left {
+  width: 265px;
+  height: 86px;
+  margin-right: 20px;
+}
+.main .col-left .col-title {
+  height: 43px;
+  line-height: 43px;
+  font-size: 14px;
+  font-weight: 700;
+  background: url(../images/titlebgp.png) no-repeat;
+  font-family: 'microsoft yahei';
+  padding-left: 15px;
+  color: #333;
+}
+.main .col-left .col-title img {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+.main .col-left .col-list .san {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left: 5px solid #ccc;
+  position: absolute;
+  top: 17px;
+  left: 27px;
+}
+.main .col-left .col-list a {
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  color: #555555;
+  display: block;
+  background:#EAE9E9;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 40px;
+  border-bottom: 1px solid #ccc; 
+}
+.main .col-left .col-list a.current{
+  background: #E53C29;
+  color: #fff;
+}
+.main .col-left .col-list a:hover{
+  background: #E53C29;
+  color: #fff;
+}
+.main .col-right {
+  width: 785px;
+  padding: 0 15px;
+}
+.main .col-right .title {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main .col-right .title h5 {
+  height: 40px;
+  line-height: 40px;
+  padding-right:15px;
+  display: inline-block;
+  font-size: 14px;
+  border-bottom: 1px solid #E12B35;
+  color: #E12B35;
+}
+.main .col-right .title i {
+  position: relative;
+  left: -7px;
+  color: #555555;
+  font-size: 12px;
+}
+.main .col-right .title .more {
+  color: #999999;
+}
+.main .col-right .title .more a {
+  color: #999999;
+  font-size: 12px;
+}
+.team-img img{
+  width: 100%;
+}
+/* 文本列表 */
+.text-list {
+  margin-top: 20px;
+  color: #555555;
+  line-height: 24px;
+}
+.text-list .text-item {
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 15px;
+}
+.text-list .text-item .text-title {
+  color: #E53C29;
+  margin-bottom: 10px;
+}
+/* 新闻列表 */
+ .list li {
+  margin: 5px 0;
+}
+ .list li a {
+  font-size: 12px;
+  color: #555555;
+}
+ .list li a span {
+  float: right;
+}
+ .list li a:hover {
+  color: #E12B35;
+}
+
+
+.dynamics {
+  margin-top: 20px;
+}
+.dynamics li {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+.dynamics li a{
+  display: block;
+}
+.dynamics li strong {
+  font-size: 14px;
+  color: #E53C29;
+}
+.page {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.page .sq {
+  display: inline-block;
+  padding: 0px 12px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.page a {
+  color: #000;
+}
+.page .current {
+  background: #E53C29;
+  color: #fff;
+}
+.friendshiplink{
+  margin-top: 20px;
+}
+.friendshiplink li{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.friendshiplink li a{
+  color: #555555;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  background:#F2F2F2;
+}
+.footer a {
+  margin: 0 10px;
+  color: #555555;
+}
+.footer a:hover {
+  color: #E12B35;
+}
+.footer p {
+  color: #999999;
+  padding-bottom: 5px;
+}
+.footer p:nth-child(2){
+  font-weight: 700; 
+  padding-top: 5px;
+}
+.footer img{
+  vertical-align: middle;
+}
+.footer span{
+  line-height: 20px;
+  height: 20px;
+}
+#test:target{
+  background: yellow
+}

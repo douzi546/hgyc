@@ -1,0 +1,18 @@
+.partner {
+  margin-top: 20px;
+}
+.partner .pic {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.partner .pic .pic-item {
+  float: left;
+  margin-right: 30px;
+}
+.partner .pic .pic-item img {
+  display: block;
+}
+.partner .pic .pic-item p {
+  text-align: center;
+  margin: 10px 0 ;
+}
